@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elite Boots | Loja de Chuteiras</title>
+  <link rel="preconnect" href="https://tse4.mm.bing.net">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">Frete gratis acima de R$ 399 | Troca facil em ate 30 dias | 10% off no Pix</div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Elite Boots">
+      <span class="brand-mark">EB</span>
+      <span>Elite Boots</span>
+    </a>
+    <nav class="main-nav" aria-label="Menu principal">
+      <a href="#masculino">Masculino</a>
+      <a href="#feminino">Feminino</a>
+      <a href="#infantil">Infantil</a>
+      <a href="#lancamentos">Lancamentos</a>
+    </nav>
+    <div class="header-actions">
+      <label class="search">
+        <span>Buscar</span>
+        <input id="searchInput" type="search" placeholder="Modelo, marca ou campo">
+      </label>
+      <a class="cart-button" href="carrinho.html">Carrinho <strong id="cartCount">0</strong></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Nova colecao campo e society</span>
+        <h1>Chuteiras para jogar bonito, rapido e com controle.</h1>
+        <p>Selecao premium com Nike, adidas, Puma, Joma e Penalty para adulto e infantil.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#produtos">Comprar agora</a>
+          <a class="ghost-button" href="#categorias">Ver categorias</a>
+        </div>
+      </div>
+      <div class="hero-product" aria-label="Produto destaque">
+        <span class="drop">Mais vendido</span>
+        <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/107171/01/sv01/fnd/IND/fmt/png/FUTURE-PRO-Football-Boots" alt="Chuteira Puma Future Pro">
+        <div>
+          <strong>Puma Future Pro FG/AG</strong>
+          <span>R$ 699,90</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="brand-strip" aria-label="Marcas disponiveis">
+      <span>Nike</span>
+      <span>adidas</span>
+      <span>Puma</span>
+      <span>Joma</span>
+      <span>Penalty</span>
+    </section>
+
+    <section id="categorias" class="section">
+      <div class="section-heading">
+        <span class="eyebrow">Compre por categoria</span>
+        <h2>Escolha sua linha</h2>
+      </div>
+      <div class="category-grid">
+        <a id="masculino" class="category-card" href="#produtos" data-filter-link="masculino">
+          <span>Masculino</span>
+          <strong>Potencia e velocidade</strong>
+        </a>
+        <a id="feminino" class="category-card" href="#produtos" data-filter-link="feminino">
+          <span>Feminino</span>
+          <strong>Ajuste leve e preciso</strong>
+        </a>
+        <a id="infantil" class="category-card" href="#produtos" data-filter-link="infantil">
+          <span>Infantil</span>
+          <strong>Conforto para craques jovens</strong>
+        </a>
+      </div>
+    </section>
+
+    <section id="produtos" class="section product-section">
+      <div class="section-heading">
+        <span id="lancamentos" class="eyebrow">Vitrine profissional</span>
+        <h2>Chuteiras em destaque</h2>
+      </div>
+
+      <div class="filters" aria-label="Filtros de produtos">
+        <button class="filter active" data-filter="todos">Todos</button>
+        <button class="filter" data-filter="masculino">Masculino</button>
+        <button class="filter" data-filter="feminino">Feminino</button>
+        <button class="filter" data-filter="infantil">Infantil</button>
+        <button class="filter" data-filter="campo">Campo</button>
+        <button class="filter" data-filter="society">Society</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-tags="masculino campo nike">
+          <span class="badge">Top venda</span>
+          <img src="https://tse4.mm.bing.net/th?q=Nike%20Mercurial%20Vapor%20football%20boots&w=700&h=700&c=7&rs=1&p=0&o=5&pid=1.7" alt="Nike Mercurial Vapor">
+          <div class="product-info">
+            <span class="brand-name">Nike</span>
+            <h3>Mercurial Vapor Elite FG</h3>
+            <p>Campo natural | leveza explosiva</p>
+            <div class="sizes"><span>38</span><span>39</span><span>40</span><span>41</span><span>42</span></div>
+            <div class="price-row"><strong>R$ 899,90</strong><button>Comprar</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-tags="feminino campo nike">
+          <span class="badge">Novo</span>
+          <img src="https://tse4.mm.bing.net/th?q=Nike%20Phantom%20football%20boots%20women&w=700&h=700&c=7&rs=1&p=0&o=5&pid=1.7" alt="Nike Phantom feminino">
+          <div class="product-info">
+            <span class="brand-name">Nike</span>
+            <h3>Phantom GX Academy FG</h3>
+            <p>Controle de bola | forma confortavel</p>
+            <div class="sizes"><span>34</span><span>35</span><span>36</span><span>37</span><span>38</span></div>
+            <div class="price-row"><strong>R$ 649,90</strong><button>Comprar</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-tags="masculino campo adidas">
+          <span class="badge">Pro</span>
+          <img src="https://tse4.mm.bing.net/th?q=Adidas%20Predator%20football%20boots&w=700&h=700&c=7&rs=1&p=0&o=5&pid=1.7" alt="adidas Predator">
+          <div class="product-info">
+            <span class="brand-name">adidas</span>
+            <h3>Predator League FG</h3>
+            <p>Precisao nos chutes | trava firme</p>
+            <div class="sizes"><span>38</span><span>39</span><span>40</span><span>41</span><span>43</span></div>
+            <div class="price-row"><strong>R$ 799,90</strong><button>Comprar</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-tags="infantil society adidas">
+          <span class="badge">Infantil</span>
+          <img src="https://tse4.mm.bing.net/th?q=Adidas%20X%20Crazyfast%20kids%20football%20boots&w=700&h=700&c=7&rs=1&p=0&o=5&pid=1.7" alt="adidas infantil">
+          <div class="product-info">
+            <span class="brand-name">adidas</span>
+            <h3>X Crazyfast Junior TF</h3>
+            <p>Society | tracao segura</p>
+            <div class="sizes"><span>28</span><span>29</span><span>30</span><span>31</span><span>32</span></div>
+            <div class="price-row"><strong>R$ 329,90</strong><button>Comprar</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-tags="masculino campo puma">
+          <span class="badge">Oferta</span>
+          <img src="https://tse4.mm.bing.net/th?q=Puma%20Future%20football%20boots&w=700&h=700&c=7&rs=1&p=0&o=5&pid=1.7" alt="Puma Future">
+          <div class="product-info">
+            <span class="brand-name">Puma</span>
+            <h3>Future Pro FG/AG</h3>
+            <p>Ajuste adaptavel | campo e sintetico</p>
+            <div class="sizes"><span>37</span><span>38</span><span>39</span><span>40</span><span>42</span></div>
+            <div class="price-row"><strong>R$ 699,90</strong><button>Comprar</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-tags="feminino society puma">
+          <span class="badge">Leve</span>
+          <img src="https://tse4.mm.bing.net/th?q=Puma%20Ultra%20football%20boots%20women&w=700&h=700&c=7&rs=1&p=0&o=5&pid=1.7" alt="Puma Ultra feminino">
+          <div class="product-info">
+            <span class="brand-name">Puma</span>
+            <h3>Ultra Match Society</h3>
+            <p>Arrancada rapida | solado TF</p>
+            <div class="sizes"><span>34</span><span>35</span><span>36</span><span>37</span><span>39</span></div>
+            <div class="price-row"><strong>R$ 459,90</strong><button>Comprar</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-tags="masculino campo joma">
+          <span class="badge">Premium</span>
+          <img src="https://tse4.mm.bing.net/th?q=Joma%20football%20boots%20FG&w=700&h=700&c=7&rs=1&p=0&o=5&pid=1.7" alt="Joma campo">
+          <div class="product-info">
+            <span class="brand-name">Joma</span>
+            <h3>Top Flex Rebound FG</h3>
+            <p>Toque macio | estabilidade no gramado</p>
+            <div class="sizes"><span>38</span><span>39</span><span>40</span><span>41</span><span>42</span></div>
+            <div class="price-row"><strong>R$ 499,90</strong><button>Comprar</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-tags="infantil campo joma">
+          <span class="badge">Kids</span>
+          <img src="https://tse4.mm.bing.net/th?q=Joma%20kids%20football%20boots&w=700&h=700&c=7&rs=1&p=0&o=5&pid=1.7" alt="Joma infantil">
+          <div class="product-info">
+            <span class="brand-name">Joma</span>
+            <h3>Champion Junior FG</h3>
+            <p>Resistente | ideal para treino</p>
+            <div class="sizes"><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span></div>
+            <div class="price-row"><strong>R$ 249,90</strong><button>Comprar</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-tags="masculino society penalty">
+          <span class="badge">Brasil</span>
+          <img src="https://tse4.mm.bing.net/th?q=Penalty%20chuteira%20society&w=700&h=700&c=7&rs=1&p=0&o=5&pid=1.7" alt="Penalty society">
+          <div class="product-info">
+            <span class="brand-name">Penalty</span>
+            <h3>S11 Locker Society</h3>
+            <p>Society | conforto para jogo rapido</p>
+            <div class="sizes"><span>37</span><span>38</span><span>39</span><span>40</span><span>41</span></div>
+            <div class="price-row"><strong>R$ 299,90</strong><button>Comprar</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-tags="infantil society penalty">
+          <span class="badge">Escolinha</span>
+          <img src="https://tse4.mm.bing.net/th?q=Penalty%20chuteira%20infantil%20society&w=700&h=700&c=7&rs=1&p=0&o=5&pid=1.7" alt="Penalty infantil">
+          <div class="product-info">
+            <span class="brand-name">Penalty</span>
+            <h3>Matis Kids Society</h3>
+            <p>Leve, macia e facil de calcar</p>
+            <div class="sizes"><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span></div>
+            <div class="price-row"><strong>R$ 219,90</strong><button>Comprar</button></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="service-band" aria-label="Diferenciais da loja">
+      <div><strong>Compra segura</strong><span>Ambiente protegido e atendimento rapido.</span></div>
+      <div><strong>Entrega expressa</strong><span>Envio para todo o Brasil com rastreio.</span></div>
+      <div><strong>Troca facil</strong><span>Escolheu o tamanho errado? A gente resolve.</span></div>
+      <div><strong>Curadoria de jogo</strong><span>Campo, society e infantil em um so lugar.</span></div>
+    </section>
+
+    <section class="newsletter">
+      <div>
+        <span class="eyebrow">Clube Elite</span>
+        <h2>Receba lancamentos e ofertas antes de todo mundo.</h2>
+      </div>
+      <form>
+        <input type="email" placeholder="Seu melhor e-mail" aria-label="Seu melhor e-mail">
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Elite Boots</strong>
+      <p>Loja especializada em chuteiras para quem leva o futebol a serio.</p>
+    </div>
+    <div>
+      <strong>Atendimento</strong>
+      <p>Segunda a sabado, 9h as 19h</p>
+    </div>
+    <div>
+      <strong>Pagamento</strong>
+      <p>Pix, cartao e parcelamento em ate 10x.</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite">Produto adicionado ao carrinho</div>
+  <script src="script.js"></script>
+</body>
+</html>
